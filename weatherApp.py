@@ -2,9 +2,9 @@ import requests
 from tkinter import *
 import math
 
-city_name = "New York,US"
+city_name = "city,country"
 
-api_key = "742c6514cbef4e8a9aec2fec73ef6aeb"
+api_key = "api_key"
 
 def get_weather(api_key, city):
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
