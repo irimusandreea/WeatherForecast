@@ -2,7 +2,7 @@ import requests
 from tkinter import *
 import math
 
-city_name = "city,country"
+city_name = "New York,US" #can be modified
 
 api_key = "api_key"
 
@@ -37,7 +37,7 @@ app.configure(bg="pink")
 app.title(f'{city_name[:-3]} Weather Forecast')
 
 def display_city_name(city):
-    city_label = Label(app, text=f"{city_name[:-3]}", background="pink")
+    city_label = Label(app, text=f"{city_name[:-3]}", background="pink") #can be modified according to the city
     city_label.config(font=("Cheri", 28))
     city_label.pack(side='top')
 
